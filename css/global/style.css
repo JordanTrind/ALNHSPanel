@@ -1,0 +1,135 @@
+.navbar-theme-navy {
+    background-color: #134f5c;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-red {
+    background-color: #B22222;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-darkred {
+    background-color: #8B0000;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-pink {
+    background-color: #C71585;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-orange {
+    background-color: #ba3200;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-purple {
+    background-color: #663399;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-darkpurple {
+    background-color: #483D8B;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-green {
+    background-color: #2E8B57;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-darkgreen {
+    background-color: #006400;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-teal {
+    background-color: #008080;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-blue {
+    background-color: #4682B4;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-darkblue {
+    background-color: #00008B;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-brown {
+    background-color: #A0522D;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-gray {
+    background-color: #696969;
+    border-color: #e7e7e7;
+}
+
+.navbar-theme-slategray {
+    background-color: #2F4F4F;
+    border-color: #e7e7e7;
+}
+.embed-sheat {
+    border: 0px;
+    width: 100%;
+    height: calc(~"100vh - 180px");
+
+    &.noheader {
+        height: calc(~"100vh - 55px");
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    min-height: 100% !important;
+    height: 100%; // Needed
+    width: 100%;
+}
+
+#wrapper {
+    min-height: 100% !important;
+    height: 100%; // Needed
+}
+
+#page-wrapper {
+    min-height: calc(~"100% - 50px") !important;
+
+    &.fullwidth {
+        padding: 0px !important;
+
+        .container-fluid {
+            padding: 0px;
+        }
+    }
+}
+
+.container-fluid {
+    height: 100%;
+    min-height: 100%;
+}
+
+h1.error {
+    text-align: center;
+    margin: 0px !important;
+    position: relative;
+    top: 150px;
+}
+
+.nav>li>a {
+    color: white;
+
+    &:hover, &:focus {
+        background-color: @gray-light;
+    }
+}
+.navbar-theme-black {
+    background-color: #000000;
+    border-color: #e7e7e7;
+}.search-embed{border:0;width:100%;height:calc(100vh - 270px)},.embed-sheat{border:0;width:100%;height:calc(100vh - 180px)}.embed-sheat.noheader{height:calc(100vh - 55px)}*{padding:0;margin:0}body,html{min-height:100%!important;height:100%;width:100%}#wrapper{min-height:100%!important;height:100%}#page-wrapper{min-height:calc(100% - 50px)!important}#page-wrapper.fullwidth{padding:0!important}#page-wrapper.fullwidth .container-fluid{padding:0}.container-fluid{height:100%;min-height:100%}h1.error{text-align:center;margin:0!important;position:relative;top:150px}.nav>li>a{color:#fff}.nav>li>a:focus,.nav>li>a:hover{background-color:#999}.btn-success.nohover{background-color:#5cb85c!important;border-color:#4cae4c!important}.btn-warning.nohover{background-color:#ec971f!important;border-color:#d58512!important}.btn-danger.nohover{background-color:#c9302c!important;border-color:#ac2925!important}#recaptcha>div{margin:0 auto 15px auto}.table.first-bold tr>td:first-of-type{font-weight:700}.online{color:#006400;font-weight:700}.away{color:#ff8c00;font-weight:700}.flot-chart{height:330px}textarea.form-control{overflow:hidden}.question_hint{font-style:italic;position:relative;left:20px;font-size:11px;top:-5px}.table-hover>tbody>tr.purple:hover>td,.table-hover>tbody>tr.purple:hover>th,.table-hover>tbody>tr:hover>.purple,.table-hover>tbody>tr>td.purple:hover,.table-hover>tbody>tr>th.purple:hover{background-color:#cec5e0!important}.table>tbody>tr.purple>td,.table>tbody>tr.purple>th,.table>tbody>tr>td.purple,.table>tbody>tr>th.purple,.table>tfoot>tr.purple>td,.table>tfoot>tr.purple>th,.table>tfoot>tr>td.purple,.table>tfoot>tr>th.purple,.table>thead>tr.purple>td,.table>thead>tr.purple>th,.table>thead>tr>td.purple,.table>thead>tr>th.purple{background-color:#d9d2e9}.table-hover>tbody>tr.pink:hover>td,.table-hover>tbody>tr.pink:hover>th,.table-hover>tbody>tr:hover>.pink,.table-hover>tbody>tr>td.pink:hover,.table-hover>tbody>tr>th.pink:hover{background-color:#dfb8c9!important}.table>tbody>tr.pink>td,.table>tbody>tr.pink>th,.table>tbody>tr>td.pink,.table>tbody>tr>th.pink,.table>tfoot>tr.pink>td,.table>tfoot>tr.pink>th,.table>tfoot>tr>td.pink,.table>tfoot>tr>th.pink,.table>thead>tr.pink>td,.table>thead>tr.pink>th,.table>thead>tr>td.pink,.table>thead>tr>th.pink{background-color:#ead1dc}.table-hover>tbody>tr.dark_blue:hover>td,.table-hover>tbody>tr.dark_blue:hover>th,.table-hover>tbody>tr:hover>.dark_blue,.table-hover>tbody>tr>td.dark_blue:hover,.table-hover>tbody>tr>th.dark_blue:hover{background-color:#bcd2e6!important}.table>tbody>tr.dark_blue>td,.table>tbody>tr.dark_blue>th,.table>tbody>tr>td.dark_blue,.table>tbody>tr>th.dark_blue,.table>tfoot>tr.dark_blue>td,.table>tfoot>tr.dark_blue>th,.table>tfoot>tr>td.dark_blue,.table>tfoot>tr>th.dark_blue,.table>thead>tr.dark_blue>td,.table>thead>tr.dark_blue>th,.table>thead>tr>td.dark_blue,.table>thead>tr>th.dark_blue{background-color:#cfe2f3}.table-hover>tbody>tr.orange:hover>td,.table-hover>tbody>tr.orange:hover>th,.table-hover>tbody>tr:hover>.orange,.table-hover>tbody>tr>td.orange:hover,.table-hover>tbody>tr>th.orange:hover{background-color:#f0d3a0!important}.table>tbody>tr.orange>td,.table>tbody>tr.orange>th,.table>tbody>tr>td.orange,.table>tbody>tr>th.orange,.table>tfoot>tr.orange>td,.table>tfoot>tr.orange>th,.table>tfoot>tr>td.orange,.table>tfoot>tr>th.orange,.table>thead>tr.orange>td,.table>thead>tr.orange>th,.table>thead>tr>td.orange,.table>thead>tr>th.orange{background-color:#ffe2ad}.table-hover>tbody>tr.dark_red:hover>td,.table-hover>tbody>tr.dark_red:hover>th,.table-hover>tbody>tr:hover>.dark_red,.table-hover>tbody>tr>td.dark_red:hover,.table-hover>tbody>tr>th.dark_red:hover{background-color:#bf0000!important}.table>tbody>tr.dark_red>td,.table>tbody>tr.dark_red>th,.table>tbody>tr>td.dark_red,.table>tbody>tr>th.dark_red,.table>tfoot>tr.dark_red>td,.table>tfoot>tr.dark_red>th,.table>tfoot>tr>td.dark_red,.table>tfoot>tr>th.dark_red,.table>thead>tr.dark_red>td,.table>thead>tr.dark_red>th,.table>thead>tr>td.dark_red,.table>thead>tr>th.dark_red{background-color:#ff4545}tr.narrow td{padding-bottom:0!important;padding-top:0!important}/*# sourceMappingURL=style.css.map */

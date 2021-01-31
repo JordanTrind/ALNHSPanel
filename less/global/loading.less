@@ -1,0 +1,82 @@
+#fullpageloading, #loadingdiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 55, 85, .4);
+    cursor: wait;
+    z-index: 10000;
+    
+    a {
+        position: relative;
+        display: block;
+        text-align: center;
+        top: 50%;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px;
+        margin: 100px auto;
+        border-radius: 10px;
+        width: 228px;
+        background: rgba(0, 0, 0, .5);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+        
+    .spinner {
+        position: absolute;
+        margin: 0px auto;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        font-size: 10px;
+        top: 50%;
+        left: 50%;
+        margin-top: -15px;
+        margin-left: -30px;
+        
+        div {
+            background-color: #fff;
+            height: 100%;
+            width: 7px;
+            margin: 0 3px 0 0;
+            display: inline-block;
+
+            animation: stretchdelay 1.2s infinite ease-in-out;
+        
+            &.rect2 {
+                animation-delay: -1.1s;
+            }
+
+            &.rect3 {
+                animation-delay: -1.0s;
+            }
+
+            &.rect4 {
+                animation-delay: -0.9s;
+            }
+
+            &.rect5 {
+                animation-delay: -0.8s;
+            }
+        }
+    }
+}
+
+#fullpageloading {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+}
+    
+@keyframes stretchdelay {
+    0%, 40%, 100% { 
+	transform: scaleY(0.4);
+    }  20% { 
+	transform: scaleY(1.0);
+    }
+}
